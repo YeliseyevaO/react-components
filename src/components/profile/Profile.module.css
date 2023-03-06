@@ -1,0 +1,33 @@
+.profile{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.description{
+    width: 100%;
+}
+
+.name {
+        color: grey;
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .tag {
+        margin-bottom: 8px;
+    }
+
+    .location {
+        margin-bottom: 8px;
+    }
+
+    .stats {
+        display: flex;
+        justify-content: center;
+    }
+    .label{
+        display: flex;
+        width: 100px;
+    }
