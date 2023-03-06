@@ -4,6 +4,7 @@
     margin: auto;
     text-align: center;
     margin-top: 100px;
+    padding: 8px;
 }
 .description{
     width: 100%;
@@ -27,7 +28,6 @@
         display: flex;
         justify-content: center;
     }
-    .label{
-        display: flex;
-        width: 100px;
-    }
+    
+ 
+ 
