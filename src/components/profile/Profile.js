@@ -8,7 +8,7 @@ import s from "./Profile.module.css";
     <img
       src={avatar}
       alt="User avatar"
-      class="avatar"
+      className="avatar"
     />
                 <p className={s.name}>{username}</p>
                 <p className={s.tag}>@{tag}</p>
@@ -22,7 +22,7 @@ import s from "./Profile.module.css";
     </li>
     <li>
       <span className={s.label}>Views</span>
-                    <span class={s.quantity}>{views}</span>
+                    <span className={s.quantity}>{views}</span>
     </li>
     <li>
       <span className={s.label}>Likes</span>
