@@ -1,4 +1,5 @@
 import s from "./Profile.module.css";
+import PropTypes from 'prop-types';
 
   export  default function Profile({ username, tag, location, avatar, stats }) {
     const {followers,views,likes}=stats
@@ -31,4 +32,12 @@ import s from "./Profile.module.css";
   </ul>
         </div>
     );
+}
+
+Profile.propTypes = {
+  username: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  avatar:PropTypes.string.isRequired,
+  stats: PropTypes.object.isRequired,
 }
